@@ -17,17 +17,17 @@ const App: FC = () => {
 const AppContent: FC = () => {
   return (
     <section className='wrapper'>
-    <section className="navbar">
+    <nav>
       <Navbar />
-    </section>
+    </nav>
     <section className="content">
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
     </section>
-    <section className="footer">
+    <footer>
       <Footer />
-    </section>
+    </footer>
   </section>
   );
 }
