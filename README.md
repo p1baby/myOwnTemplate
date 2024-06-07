@@ -1,30 +1,35 @@
-# React + TypeScript + Vite
+# 📤 My Default Template React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Welcome to the React + TypeScript + Vite Starter Template!**<br>
+This repository provides a convenient and efficient starting point for developing applications using React, Vite, and TypeScript.
 
-Currently, two official plugins are available:
+## Features 📊
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This template is designed with productivity and ease of use in mind. It includes:
 
-## Expanding the ESLint configuration
+- **React:** A JavaScript library for building user interfaces.
+- **Vite:** A next-generation frontend tooling that significantly improves the frontend development experience.
+- **TypeScript:** A strongly typed superset of JavaScript that adds static types.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Project Structure 💡
 
-- Configure the top-level `parserOptions` property like this:
+The project structure is organized and intuitive, making it easy for developers to navigate and add their code. The template includes:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **Navbar Component:** A pre-built navigation bar component that can be customized as per your needs.
+- **Footer Component:** A ready-to-use footer component that adds a professional touch to your application.
+- **Home Page:** A home page component that serves as the landing page of your application.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+In addition, the project structure follows best practices for organizing React projects, making it easy to scale and maintain.
+
+## Styles 🪄
+
+The template comes with pre-connected styles, allowing you to start adding your own styles right away without the hassle of setting up a styling solution. I use SASS.
+
+## Getting Started 📈
+
+To get started, simply clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/p1baby/react-vite-ts-template.git
+cd react-vite-ts-template
+yarn install
