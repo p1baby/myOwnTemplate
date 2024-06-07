@@ -20,11 +20,11 @@ const AppContent: FC = () => {
     <nav>
       <Navbar />
     </nav>
-    <section className="content">
+    <main>
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
-    </section>
+    </main>
     <footer>
       <Footer />
     </footer>
