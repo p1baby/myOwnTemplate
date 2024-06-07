@@ -1,4 +1,4 @@
-# 📤 My Default Template React + TypeScript + Vite
+# 📤 React + TypeScript + Vite Starter Template
 
 **Welcome to the React + TypeScript + Vite Starter Template!**<br>
 This repository provides a convenient and efficient starting point for developing applications using React, Vite, and TypeScript.
