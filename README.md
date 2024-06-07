@@ -33,3 +33,5 @@ To get started, simply clone the repository and install the dependencies:
 git clone https://github.com/p1baby/react-vite-ts-template.git
 cd react-vite-ts-template
 yarn install
+```
+Now you’re ready to start developing! I hope this template provides a helpful starting point for your React-Vite-TS projects. Happy coding!
